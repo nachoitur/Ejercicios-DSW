@@ -1,2 +1,17 @@
 Para mandar el tp, hacer una pull request en el repositorio de la info para el tp con los datos necesarios a enviar (https://github.com/utnfrrodsw/tp)
-También lo podemos mandar por mail (mailto:lucasluna@frro.utn.edu.ar)
+También lo podemos mandar por mail (lucasluna@frro.utn.edu.ar)
+
+Para generar nuevos componentes en angular, desde la terminal insertamos:
+    $ ng generate component nombre_de_componente
+
+Generación de variables de entrada/salida:
+    @Input() name: string = 'Programacion';
+    @Output() outputName = new EventEmitter();
+
+Para mostrar, llamar como función en un elemento, por ej un <button click="emitMensaje()"></button>
+emitMensaje(){
+    console.log('emití');
+    this.outputName.emit();
+}
+
+PARA ENTENDERLO MEJOR, REVISAR EL MATERIAL DE ANGULAR EN https://angular.io/
