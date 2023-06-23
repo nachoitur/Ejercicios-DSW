@@ -1,0 +1,2 @@
+Para mandar el tp, hacer una pull request en el repositorio de la info para el tp con los datos necesarios a enviar (https://github.com/utnfrrodsw/tp)
+También lo podemos mandar por mail (mailto:lucasluna@frro.utn.edu.ar)
