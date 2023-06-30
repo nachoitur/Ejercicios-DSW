@@ -1,0 +1,11 @@
+Configuración de TypeScript
+
+creación del package:
+  npn init / pnpm init
+  agregar type: module
+
+agregar typescript al proyecto:
+  npm add -D typescript@(version) // ademas puedo agregar tsc-watch
+
+agregar tsconfig.json
+  tsc --init
